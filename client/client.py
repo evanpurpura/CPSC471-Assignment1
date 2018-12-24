@@ -1,8 +1,8 @@
 #! /usr/local/bin/python3
+
 # Client code
 from socket import *
 import os, sys
-
 
 def recvAll(sock, numBytes):
     # The buffer
@@ -20,7 +20,6 @@ def recvAll(sock, numBytes):
         tmpBuff = tmpBuff.decode()
         recvBuff += tmpBuff
     return recvBuff
-
 
 # Name and port number of the server (no user arg given)
 serverName = "localhost"
