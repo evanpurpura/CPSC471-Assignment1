@@ -24,14 +24,13 @@ serverSocket.bind(('', serverPort))
 contentSocket.bind(('', contentPort))
 
 # Start listening for incoming connections
-#serverSocket.listen(1)
 print ("The server is ready to receive")
 
 # Forever accept incoming connections
-while 1 :
+while 1:
     serverSocket.listen(1)
     # Accept a connection ; get client’s socket
-    connectionSocket , addr = serverSocket.accept()
+    connectionSocket, addr = serverSocket.accept()
     # Receive whatever the newly connected client has to send
     menu = connectionSocket.recv(1024)
     menu = menu.decode()
