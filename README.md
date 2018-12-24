@@ -5,6 +5,6 @@ Evan Purpura, evan.purpura@csu.fullerton.edu <br />
 Jens Bernardino, jerbernard96@csu.fullerton.edu <br />
 
 ## Programming language used 
-* python
+* Python
 
 ## How to run the program.
